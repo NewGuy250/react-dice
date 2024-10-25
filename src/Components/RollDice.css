@@ -1,0 +1,46 @@
+:root {
+  --light-grey: #f4f4f4;
+  --dark-background: #2a2a2a;
+  --white: #ffffff;
+  --dark-grey: #444444;
+  --red: #cc0000;
+  --bright-red: #ff0000;
+  --light-red: #ff3333;
+  --hover-dark-grey: #666666;
+}
+
+.RollDice {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Shows each die in one row */
+.RollDice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling roll dice button */
+.RollDice button {
+  width: 15em;
+  padding: 1.5em;
+  border: none;
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--red);
+  margin-top: 3em;
+  align-self: center;
+}
+
+.RollDice button:hover {
+  cursor: pointer;
+  background-color: var(--light-red);
+}
+
+.RollDice-rolling {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--dark-grey);
+}
